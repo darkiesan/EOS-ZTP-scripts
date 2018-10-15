@@ -65,7 +65,7 @@ ip route 0.0.0.0/0 $route
 management api http-commands
    no shutdown
 !
-""").safe_substiture(Replacements)
+""").safe_substitute(Replacements)
 
 #
 # Open, rewrite startup-config with the new config

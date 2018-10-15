@@ -54,7 +54,7 @@ username cvpadmin privilege 15 secret 5 $1$E6VAxeV9$rMrf9bnHXs0AkCM8RJ/kt0
 username df privilege 15 secret 5 $1$yorRLk72$Js0Z3mXVE0hydvFYGAQ0r. 
 !
 daemon TerminAttr
-  exec /usr/bin/TerminAttr -ingestgrpcurl=192.168.130.3:9910 -taillogs -ingestauth=key,bluppfisk -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent
+  exec /usr/bin/TerminAttr -ingestgrpcurl=192.168.132.4:9910 -taillogs -ingestauth=key,bluppfisk -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent
   no shutdown
 ! 
 interface Management1
